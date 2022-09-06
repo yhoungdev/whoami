@@ -3,3 +3,8 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --default-text: #16a34a;
+  --gray: #f8fafc;
+}

@@ -9,6 +9,7 @@ const Home: NextPage = () => {
     <>
 
       <div className=''>
+         
          <Homepage/>
       </div>
     
