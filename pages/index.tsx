@@ -8,7 +8,7 @@ const Home: NextPage = () => {
   return (
     <>
 
-      <div className=''>
+      <div className='body'>
          
          <Homepage/>
       </div>

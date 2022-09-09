@@ -16,16 +16,20 @@ const LoaderScreen = () => {
         <>
 
             <Box bg={'black'} position={'fixed'}
-            bottom={0} right={0} left={0} top={0} overflow={'hidden'} w={open} color={'var(--gray)'}>
+            bottom={0} right={0} left={0} top={0} 
+            transition={'ease-in-out 1s'}
+            overflow={'hidden'} w={open} color={'var(--gray)'}>
 
                 <Flex justifyContent={'center'} h={'100vh'} textAlign={'center'} alignItems={'center'}>
                     <Box>
                         <Text fontWeight={'bold'}>Obiabo@127.0.0.1</Text>
                         <DefaultText fontWeight="bold" fontSize="30px"> Sudo Who Am I ?</DefaultText>
                         <Text>{'> '}Root</Text>
-                        <Buttons
-                         onClick="alert(0)" 
-                         bg={'var(--default-text)'} color={'#000'}>chmod +x *</Buttons>
+                            <Box onClick={handleMod}>
+                                <Buttons
+                                bg={'var(--default-text)'} 
+                                color={'#000'}>chmod +x *</Buttons>
+                            </Box>
                     </Box>
                 </Flex>
 

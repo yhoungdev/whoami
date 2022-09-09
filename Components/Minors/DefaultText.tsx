@@ -12,7 +12,7 @@ const DefaultText =({children, fontSize , fontWeight}: TextModel)=> {
     return (
         <>
 
-            <Text fontWeight={fontWeight} fontSize={fontSize}  color={'var(--default-text)'} >{children}</Text>
+            <Text my={'1.5em'} fontWeight={fontWeight} fontSize={fontSize}  color={'var(--default-text)'} >{children}</Text>
         
         </>
     )
