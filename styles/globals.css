@@ -35,3 +35,17 @@ body {
   
 
 }
+
+.move {
+  animation: shake infinite 1s ;
+}
+
+@keyframes shake  {
+  0% {
+    translate: 1%;
+  } 50% {
+    translate: 0%;
+  } 100% {
+    translate: 1%;
+  }
+}
