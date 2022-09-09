@@ -1,4 +1,7 @@
-import { Box, Center, Text, Image } from "@chakra-ui/react";
+import { Box, Center, Text, Image, Flex } from "@chakra-ui/react";
+import Link from "next/link";
+import Buttons from "../Minors/Buttons";
+import ProjectBox from "../Minors/ProjectBox";
 
 const Work =()=> {
     return (
@@ -8,22 +11,28 @@ const Work =()=> {
 
 
                 <Center>
-                    <Text fontWeight={'bold'} fontSize={'1.8em'}>Things i have worked on </Text>
+                    <Text my={'2em'} fontWeight={'bold'} fontSize={'1.8em'}>Things i have worked on </Text>
                 </Center>
 
-                <Box my={'0.5em'}>
+                <Flex gap={'2em'} flexDir={['column','row']} display={['none','inline-flex']}>
+                    <ProjectBox/>
+                    <ProjectBox/>
+                    <ProjectBox/>
+                </Flex>
 
 
-                    <Box>
-
-                        <Box w={['100%' , '25%']} h={'30vh'} bgImage={'https://bit.ly/dan-abramov'}>
-                                
-                        </Box>
-
-                        <Text>Lorem ipsum dolor sit amet consectetur</Text>
-                    </Box>
-
+                {/* display this on monile  */}
+                <Box display={['block', 'none']}>
+                    <ProjectBox/>
                 </Box>
+
+                
+                <Center>
+                   <Link href={'/Projects'}>
+                    <Buttons  color="green.300" bg="none" border={'black'}> View More</Buttons>
+                   </Link>
+                </Center>
+
 
           </Box>
         

@@ -14,6 +14,46 @@ const Projects =()=> {
         name:'',
         description: '',
         image: ''
+    },
+    {
+        name:'',
+        description: '',
+        image: ''
+    },
+    {
+        name:'',
+        description: '',
+        image: ''
+    },
+    {
+        name:'',
+        description: '',
+        image: ''
+    },
+    {
+        name:'',
+        description: '',
+        image: ''
+    },
+    {
+        name:'',
+        description: '',
+        image: ''
+    },
+    {
+        name:'',
+        description: '',
+        image: ''
+    },
+    {
+        name:'',
+        description: '',
+        image: ''
+    },
+    {
+        name:'',
+        description: '',
+        image: ''
     }]
 
     return (
@@ -34,7 +74,7 @@ const Projects =()=> {
             <Box>
 
 
-                <Flex gap={'2em'} flexDir={['column','row']}>
+                <Flex gap={'2em'} flexDir={['column','row']} flexWrap={'wrap'}>
                 {
                     projects.map( items => {
                         return (

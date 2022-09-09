@@ -1,4 +1,5 @@
 import { Box , Text , Center , Image  } from "@chakra-ui/react";
+import { FaGithub } from "react-icons/fa";
 
 interface ItemModels {
     name ?: string ,
@@ -24,6 +25,12 @@ const ProjectBox =()=> {
                         <Text fontWeight={'bold'} fontSize={'1.5em'}>Quickk</Text>
 
                         <Text>A 3 in 1 App for writers, Create blog in 2 mins </Text>
+
+                        <Box display={'none'}>
+                            <FaGithub/>
+                            
+                        </Box>
+                   
                     </Box>
                 </Box>
         
