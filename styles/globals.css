@@ -1,5 +1,37 @@
+@import url("https://api.fontshare.com/v2/css?f[]=satoshi@900,700&f[]=general-sans@500,600,700&f[]=sentient@700&f[]=outfit@500,600,700&display=swap");
+
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+@font-face {
+  font-family: sans ;
+  src: url(../Components/Asstet/SF/SFUIText-Heavy.woff);
+}
+
+:root {
+  --default-text: #16a34a;
+  --gray: #f8fafc;
+  --dark: #1D1C1C;
+  --flats: #242424;
+  --glass: #9d9d9d2e;
+
+  /* fonts variables  */
+  --text-one: sans;
+  --satoshi: 'Satoshi', sans-serif;
+  --outfit: 'Outfit', sans-serif;
+  --serif:'Sentient', serif;
+  --general : 'General Sans', sans-serif;
+
+  
+}
+
+body {
+  background-color: var(--dark) !important;
+  color: var(--gray) !important;
+  font-family: var(--outfit) !important ;
+  
+
 }

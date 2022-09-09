@@ -1,13 +1,37 @@
-import { Button, Container } from "@chakra-ui/react";
+import { Box, Button, Container } from "@chakra-ui/react";
+import About from "../Components/Major/About";
+import { Footer } from "../Components/Major/Footer";
+import Header from "../Components/Major/Header";
+import Hero from "../Components/Major/Hero";
+import Information from "../Components/Major/Information";
+import Work from "../Components/Major/Works";
+
 import ContainerLayout from "../Themes/Layouts/ContainerLayout";
+import LoaderScreen from "./boot";
 
-const Homepage=() => {
+const Homepage= () => {
     return (
-        <>
+        <>  
 
-          <ContainerLayout>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, suscipit porro repudiandae enim a voluptates voluptatem ipsam, consequatur perferendis deleniti velit assumenda officia fugit dolores praesentium impedit dolore? Vero, fuga!
-          </ContainerLayout>
+          {/* <LoaderScreen/> */}
+
+          <Box>
+              <ContainerLayout>
+                    
+                <Header/>
+
+                <Hero/>
+
+                <About/>
+
+                <Work/>
+
+               <Information/>
+               <Footer/>
+
+              </ContainerLayout>
+              
+          </Box>
         
         </>
     )
