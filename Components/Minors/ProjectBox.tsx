@@ -16,7 +16,7 @@ const ProjectBox =()=> {
 
                     <Box py={'3em'} px={'1em'} >
                         <Center>
-                         <Image src={'https://res.cloudinary.com/dhkccnvyn/image/upload/v1658534732/quick/dashboard_zosbzh.svg'}/>
+                         <Image src={'https://res.cloudinary.com/dhkccnvyn/image/upload/v1662747247/QUICKK10_1_arplnz.svg'}/>
                         </Center>
                     </Box>
 
