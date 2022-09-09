@@ -29,7 +29,7 @@
 }
 
 body {
-  background-color: var(--dark) !important;
+  background-color: rgb(24, 24, 24) !important;
   color: var(--gray) !important;
   font-family: var(--outfit) !important ;
   

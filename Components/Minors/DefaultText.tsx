@@ -5,14 +5,15 @@ interface TextModel {
     value ?: string , 
     fontSize ?: string ,
     fontWeight ?: string ,
-    children ?: string
+    children ?: string,
+    textAlign ?: any
 }
 
-const DefaultText =({children, fontSize , fontWeight}: TextModel)=> {
+const DefaultText =({children, textAlign, fontSize , fontWeight}: TextModel)=> {
     return (
         <>
 
-            <Text my={'1.5em'} fontWeight={fontWeight} fontSize={fontSize}  color={'var(--default-text)'} >{children}</Text>
+            <Text my={'1.5em'} textAlign={textAlign} fontWeight={fontWeight} fontSize={fontSize}  color={'green.300'} >{children}</Text>
         
         </>
     )

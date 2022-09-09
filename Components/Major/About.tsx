@@ -7,7 +7,7 @@ const About =()=> {
         <>
 
           <Box bg={'var(--flats)'} p={'2em'}>
-            <DefaultText fontSize="1.1em" fontWeight="bold"> About Me (NeoFetch) </DefaultText>
+            <DefaultText fontSize="1.1em" fontWeight="bold" textAlign={['center','left']}> About Me (NeoFetch) </DefaultText>
             
             <Box gap={'2'}>
 
@@ -15,7 +15,7 @@ const About =()=> {
                 <Box textAlign={['center', 'left']} px={['', '2em']}>
                    <Flex gap={'3em'} my={'2em'} flexDir={['column','row']} alignItems={'center'}>
                  
-                        <Image boxSize='200px' src='https://bit.ly/dan-abramov' alt='Dan Abramov' />
+                        <Image display={'none'} boxSize='200px' src='https://res.cloudinary.com/dhkccnvyn/image/upload/v1662745429/1662421356129_cdkaxo.webp' alt='Dan Abramov' />
                     
                     <Box>
                         <Text my={'1em'}>
