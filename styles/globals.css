@@ -35,3 +35,32 @@ body {
   
 
 }
+
+.move {
+  -webkit-animation: shake infinite 1s;
+          animation: shake infinite 1s;
+}
+
+@-webkit-keyframes shake {
+  0% {
+    translate: 1%;
+  }
+  50% {
+    translate: 0%;
+  }
+  100% {
+    translate: 1%;
+  }
+}
+
+@keyframes shake {
+  0% {
+    translate: 1%;
+  }
+  50% {
+    translate: 0%;
+  }
+  100% {
+    translate: 1%;
+  }
+}/*# sourceMappingURL=sam.css.map */

@@ -13,7 +13,7 @@ const Homepage= () => {
     return (
         <>  
 
-          {/* <LoaderScreen/> */}
+          <LoaderScreen/>
 
           <Box>
               <ContainerLayout>
