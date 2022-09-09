@@ -29,7 +29,9 @@ const Work =()=> {
                 
                 <Center>
                    <Link href={'/Projects'}>
-                    <Buttons  color="green.300" bg="none" border={'black'}> View More</Buttons>
+                       <Text my={'3em'} cursor={'pointer'}>
+                          View More
+                       </Text>
                    </Link>
                 </Center>
 

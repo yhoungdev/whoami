@@ -1,4 +1,5 @@
 import { Box , Text ,Center,  Image, Flex} from "@chakra-ui/react";
+import { Footer } from "../Components/Major/Footer";
 import Header from "../Components/Major/Header";
 import ProjectBox from "../Components/Minors/ProjectBox";
 import ContainerLayout from "../Themes/Layouts/ContainerLayout";
@@ -6,26 +7,6 @@ import ContainerLayout from "../Themes/Layouts/ContainerLayout";
 const Projects =()=> {
 
     const projects = [{
-        name:'',
-        description: '',
-        image: ''
-    },
-    {
-        name:'',
-        description: '',
-        image: ''
-    },
-    {
-        name:'',
-        description: '',
-        image: ''
-    },
-    {
-        name:'',
-        description: '',
-        image: ''
-    },
-    {
         name:'',
         description: '',
         image: ''
@@ -90,6 +71,8 @@ const Projects =()=> {
 
 
             </Box>
+
+            <Footer/>
 
             </ContainerLayout>
         
