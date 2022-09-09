@@ -37,15 +37,30 @@ body {
 }
 
 .move {
-  animation: shake infinite 1s ;
+  -webkit-animation: shake infinite 1s;
+          animation: shake infinite 1s;
 }
 
-@keyframes shake  {
+@-webkit-keyframes shake {
   0% {
     translate: 1%;
-  } 50% {
+  }
+  50% {
     translate: 0%;
-  } 100% {
+  }
+  100% {
     translate: 1%;
   }
 }
+
+@keyframes shake {
+  0% {
+    translate: 1%;
+  }
+  50% {
+    translate: 0%;
+  }
+  100% {
+    translate: 1%;
+  }
+}/*# sourceMappingURL=sam.css.map */
