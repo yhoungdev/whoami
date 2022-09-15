@@ -7,7 +7,7 @@ interface ItemModels {
     description ?: string
 }
 
-const ProjectBox =()=> {
+const ProjectBox =({name , image , description }: ItemModels )=> {
     return (
         <>
 
@@ -22,9 +22,9 @@ const ProjectBox =()=> {
 
                     <Box bg={'var(--flats)'}
                        right={0} left={0} bottom={0} py={'2em'} px={'1em'}>
-                        <Text fontWeight={'bold'} fontSize={'1.5em'}>Quickk</Text>
+                        <Text fontWeight={'bold'} fontSize={'1.5em'}>{name}</Text>
 
-                        <Text>A 3 in 1 App for writers, Create blog in 2 mins </Text>
+                        <Text> {description} </Text>
 
                         <Box display={'none'}>
                             <FaGithub/>
