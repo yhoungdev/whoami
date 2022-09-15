@@ -21,11 +21,14 @@ const About =()=> {
                         <Text my={'1em'}>
                             {'> '} sudo whoami
                         </Text>
-                        <Text>
-                            I am Obiabo Immanuel a Solution-oriented and problem solver with over 4 years of experience building and
-                            maintaining software and software architecture. Highly skilled in communication,
-                            collaboration, and designing of appealing user-centered, and friendly interfaces. And
-                            contributing to other applications through Open source contributions.
+                        <Text lineHeight={'1.7em'}>
+                        I am Obiabo Immanuel, A Solution-oriented and problem solver with over 
+                        4 years of experience building and maintaining software and software architecture. 
+                        Highly skilled in communication, collaboration, and designing of appealing user-centered,
+                         and friendly interfaces, Building and designing scalable web components, PWA and SPA  with modern
+                          javascript frameworks/library like , ReactJs, NextJs, Typescript and Astro.build, 
+                         I give applications live by consuming Rest Apis 
+
                         </Text>
                     </Box>
                    </Flex>
@@ -44,7 +47,7 @@ const About =()=> {
                        </Center>
                        <Text fontWeight={'bold'} my={'0.5em'}>Open Source </Text>
                         <Text my={'1em'}>
-                             I add and contribute back to the tech ecosystem by contributing to sourcing  Open Source projects, over the past time i have  contributed to 
+                             I add and give back to the tech ecosystem by contributing and sourcing for  Open Source projects, over the past time i have  contributed to 
                             to repositories such as  Open Sauce , Astro.build and others 
                         </Text>
 
@@ -59,8 +62,9 @@ const About =()=> {
                        <Text my={'1em'} fontWeight={'bold'}> Sense of UI/UX Design  </Text>
 
                         <Text my={'1em'}>
-                            As a frontend developer i have good sense of UI/UX design i create awesome low and high fidelity mockups, over the past years i have used tools such as 
-                            Figma, Whimsical and Mockup Plus.
+                         As a frontend developer, I have a good sense of UI/UX design I design awesome
+                         Interfaces,  low and high-fidelity mockups, and over the past years, I have used 
+                         tools such as Figma, Whimsical, and Mockup Plus.
                             
                         </Text>
 

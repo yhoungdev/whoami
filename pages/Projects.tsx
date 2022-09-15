@@ -7,33 +7,52 @@ import ContainerLayout from "../Themes/Layouts/ContainerLayout";
 const Projects =()=> {
 
     const projects = [{
-        name:'',
-        description: '',
+        name:'Quickk',
+        description: 'A Platform to make you create blog in 2 mins, and earn donations in crypto',
         image: ''
     },
     {
-        name:'',
-        description: '',
+        name:'SecuWallet',
+        description: ` The key component that provides secure, diversied
+         and user-friendly non-custodial wallet solution for everyone. `,
         image: ''
     },
     {
-        name:'',
-        description: '',
+        name:'Utifi',
+        description: `Making Digital Service Better for Everyone, pay bills with ease`,
         image: ''
     },
     {
-        name:'',
-        description: '',
+        name:'SchMgT',
+        description: ` A School Management Solution 
+        for school to keep records of thier Datas `,
         image: ''
     },
     {
-        name:'',
-        description: '',
+        name:'Galactic Ops',
+        description: ` A Simple NFT platform homepage  `,
         image: ''
     },
     {
-        name:'',
-        description: '',
+        name:'Parrot',
+        description: ` A Projects to showcase web3 
+        projects and receive reviews from users  `,
+        image: ''
+    },
+    // {
+    //     name:'Freexit',
+    //     description: ' A Logistic platform for easy shipments ',
+    //     image: ''
+    // },
+    {
+        name:'Setroi',
+        description: `Appears In Newspapers And Position In Google, An Informative platform`,
+        image: ''
+    },
+    {
+        name:'Anti Porno',
+        description: `A simple and small chrome extension
+            that blocks and redirects erotic words `,
         image: ''
     }]
 
@@ -61,7 +80,7 @@ const Projects =()=> {
                         return (
                             <>
 
-                                <ProjectBox/>
+                                <ProjectBox name={items.name} description={items.description}/>
                             
                             </>
                         )
@@ -70,6 +89,10 @@ const Projects =()=> {
                 </Flex>
 
 
+            </Box>
+            
+            <Box>
+                
             </Box>
 
             <Footer/>
