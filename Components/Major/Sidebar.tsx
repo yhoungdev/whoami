@@ -20,7 +20,7 @@ const Sidebar =({width}) => {
 
     return (
         <>
-            <Box bg={'green.500'} color={"#fff"} 
+            <Box bg={'#000000db'} color={"#fff"} 
                 position={"fixed"} left={0}
                 top={0} transition={'1s ease-in-out'}
                 bottom={0} w={width} zIndex={'1'} >
