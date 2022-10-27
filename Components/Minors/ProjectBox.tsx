@@ -1,13 +1,16 @@
 import { Box , Text , Center , Image  } from "@chakra-ui/react";
 import { FaGithub } from "react-icons/fa";
 import {HiExternalLink } from 'react-icons/hi';
+import {BsInfoCircle} from 'react-icons/bs';
+import Link from "next/link";
 interface ItemModels {
     name ?: string ,
     image ?: string, 
+    github ?: string, 
     description ?: string
 }
 
-const ProjectBox =({name , image , description }: ItemModels )=> {
+const ProjectBox =({name , image , description , github}: ItemModels )=> {
     return (
         <>
 
@@ -29,7 +32,16 @@ const ProjectBox =({name , image , description }: ItemModels )=> {
                         <Box my={'1em'} display={'flex'} gap={'1em'}>
 
 
-                            <FaGithub fontSize={'1.4em'}/>
+                            <Link href={github}>
+                                <FaGithub fontSize={'1.4em'}/>
+                            </Link>
+
+                    
+
+                            <Box display={'flex'} bg={'blackAlpha.200'} 
+                                cursor={'pointer'} gap={'0.5em'}>
+                                   <BsInfoCircle fontSize={'1.3em'}/> Info
+                            </Box>
 
                             <Box display={'flex'} bg={'blackAlpha.200'} 
                                 cursor={'pointer'}>
