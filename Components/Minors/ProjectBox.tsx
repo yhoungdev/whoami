@@ -1,6 +1,6 @@
 import { Box , Text , Center , Image  } from "@chakra-ui/react";
 import { FaGithub } from "react-icons/fa";
-
+import {HiExternalLink } from 'react-icons/hi';
 interface ItemModels {
     name ?: string ,
     image ?: string, 
@@ -26,8 +26,17 @@ const ProjectBox =({name , image , description }: ItemModels )=> {
 
                         <Text> {description} </Text>
 
-                        <Box display={'none'}>
-                            <FaGithub/>
+                        <Box my={'1em'} display={'flex'} gap={'1em'}>
+
+
+                            <FaGithub fontSize={'1.4em'}/>
+
+                            <Box display={'flex'} bg={'blackAlpha.200'} 
+                                cursor={'pointer'}>
+                                <HiExternalLink fontSize={'1.4em'}/> Live Preview
+                            </Box>
+
+
                             
                         </Box>
                    
