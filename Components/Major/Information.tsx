@@ -19,7 +19,7 @@ const Information =()=> {
                     <Text textAlign={'center'} display={'none'}> Hey Nate, how is life </Text>
                 </Box>
 
-                <Flex my={'2em'} gap={['4em','2em']} flexDir={['column','row']}>
+                <Flex my={'2em'} gap={['4em','2em']} flexDir={{'base':'column' , 'md':'column' , 'lg':'row'}}>
 
                     <Box textAlign={'center'} px={['','2em']}>
 

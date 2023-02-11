@@ -31,12 +31,12 @@ const ProjectBox =({name , image , description , github}: ItemModels )=> {
 
                         <Box my={'1em'} display={'flex'} gap={'1em'}>
 
-
-                            <Link href={github}>
+                            {/* @ts-ignopre */}
+                            {/* <Link href={github}>
                                 <FaGithub fontSize={'1.4em'}/>
-                            </Link>
+                            </Link> */}
 
-                    
+                                
 
                             <Box display={'flex'} bg={'blackAlpha.200'} 
                                 cursor={'pointer'} gap={'0.5em'}>

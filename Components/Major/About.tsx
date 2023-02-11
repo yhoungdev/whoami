@@ -6,7 +6,7 @@ const About =()=> {
     return (
         <>
 
-          <Box bg={'var(--flats)'} p={'2em'}>
+          <Box bg={'var(--flats)'} p={'2em'} >
             <DefaultText fontSize="1.1em" fontWeight="bold" textAlign={['center','left']}> About Me (NeoFetch) </DefaultText>
             
             <Box gap={'2'}>
@@ -22,19 +22,20 @@ const About =()=> {
                             {'> '} sudo whoami
                         </Text>
                         <Text lineHeight={'1.7em'}>
-                        I am Obiabo Immanuel, A Solution-oriented and problem solver with over 
-                        4 years of experience building and maintaining software and software architecture. 
-                        Highly skilled in communication, collaboration, and designing of appealing user-centered,
-                         and friendly interfaces, Building and designing scalable web components, PWA and SPA  with modern
-                          javascript frameworks/library like , ReactJs, NextJs, Typescript and Astro.build, 
-                         I give applications live by consuming Rest Apis 
+                         As a software engineer and researcher, I am driven by the desire to make a positive impact
+                          on the world through technology. With extensive experience in the fields of Fintech, 
+                          Agro Tech, and Web3, I bring innovative ideas to life by crafting user-friendly and
+                           scalable applications. I am constantly pushing the boundaries of what is possible,
+                            and I am committed to delivering solutions that have a meaningful impact on the 
+                            people and communities they serve. From my workspace, I am dedicated to changing
+                             the world, one line of code at a time
 
                         </Text>
                     </Box>
                    </Flex>
                 </Box>
 
-                <Flex my={['5em','6em']} gap={'4em'} flexDir={['column','row']}>
+                <Flex my={['5em','6em']} gap={'4em'} flexDir={['column', 'column', 'row']}>
 
                     <Box textAlign={'center'} px={['','3em']}>
 

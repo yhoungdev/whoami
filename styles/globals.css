@@ -32,6 +32,8 @@ body {
   background-color: rgb(24, 24, 24) !important;
   color: var(--gray) !important;
   font-family: var(--outfit) !important ;
+  font-weight: 500 !important;
+  line-height: 28px;
   
 
 }
