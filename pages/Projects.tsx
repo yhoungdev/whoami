@@ -39,7 +39,7 @@ const Projects =()=> {
         {
         name:'Quickk',
         description: 'A Platform to make you create blog in 2 mins, and earn donations in crypto',
-        image: '',
+        image: 'https://res.cloudinary.com/dhkccnvyn/image/upload/v1662747247/QUICKK10_1_arplnz.svg',
         links:[{
             github:'www.github.com/yhoungdev/private-me-'
         }]
@@ -48,7 +48,7 @@ const Projects =()=> {
         name:'SecuWallet',
         description: ` The key component that provides secure, diversied
          and user-friendly non-custodial wallet solution for everyone. `,
-        image: '',
+        image: 'https://res.cloudinary.com/dhkccnvyn/image/upload/v1656241542/secuWallet/SecuWallet_Horizontal_Logo_-_White_jfkykd.png',
         links:[{
             github:'www.github.com/yhoungdev/private-me-'
         }]
@@ -96,7 +96,7 @@ const Projects =()=> {
     {
         name:'Setroi',
         description: `Appears In Newspapers And Position In Google, An Informative platform`,
-        image: '',
+        image: 'https://res.cloudinary.com/dhkccnvyn/image/upload/v1676146181/Portfolio/footer_svg.c02dfa2814883b11d4fb18de8f471247_jcbh6s.svg',
         links:[{
             github:'www.github.com/yhoungdev/private-me-'
         }]
@@ -137,6 +137,7 @@ const Projects =()=> {
 
                                 <ProjectBox name={items.name}
                                      description={items.description}
+                                     image={items?.image}
                                       //@ts-ignore
                                      github={items.links[0]}/>
                                 

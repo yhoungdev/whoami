@@ -17,11 +17,19 @@ const ProjectBox =({name , image , description , github}: ItemModels )=> {
 
             <Box w={['100%','30%']} maxH={'60vh'}  bg={'var(--glass)'} position={'relative'}>
 
-                    <Box py={'3em'} px={'1em'} >
-                        <Center>
-                         <Image src={'https://res.cloudinary.com/dhkccnvyn/image/upload/v1662747247/QUICKK10_1_arplnz.svg'}/>
-                        </Center>
+                    <Box py={'3em'} px={'1em'}>
+                        <Box bgImage={image}
+                         h={'10vh'} 
+                         bgSize={'contain'}
+                         mx={'auto'}
+                         w={'50%'}
+                         bgRepeat={'no-repeat'}
+                         ></Box>
                     </Box>
+
+                    {/* <Center>
+                             <Image src={image} w={'30%'} alt={'logo for project'}/>
+                        </Center> */}
 
                     <Box bg={'var(--flats)'}
                        right={0} left={0} bottom={0} py={'2em'} px={'1em'}>
