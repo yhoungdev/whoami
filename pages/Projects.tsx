@@ -114,6 +114,7 @@ const Projects =()=> {
 
                                 <ProjectBox name={items.name}
                                      description={items.description}
+                                      //@ts-ignore
                                      github={items.links[0]}/>
                                 
                             </>
