@@ -7,6 +7,7 @@ import ContainerLayout from "../Themes/Layouts/ContainerLayout";
 const Projects =()=> {
 
     const projects = [
+
         {
             name:'Private Me',
             description: 'An Open Source community for Anonymity and whistle blowers',
@@ -14,7 +15,28 @@ const Projects =()=> {
             links:[{
                 github:'www.github.com/yhoungdev/private-me-'
             }]
-        },{
+        },
+
+        {
+            name:'Git Secure',
+            description: 'A Sectret Ops platform, which scan leaked credentials in your codebase',
+            image: '',
+            links:[{
+                github:'www.github.com/yhoungdev/private-me-'
+            }]
+        },
+
+        {
+            name:'MetaOps Gaming Site ',
+            description: 'A web site for Gamers',
+            image: '',
+            links:[{
+                github:'www.github.com/yhoungdev/private-me-'
+            }]
+        },
+        
+        
+        {
         name:'Quickk',
         description: 'A Platform to make you create blog in 2 mins, and earn donations in crypto',
         image: '',
@@ -39,32 +61,33 @@ const Projects =()=> {
             github:'www.github.com/yhoungdev/private-me-'
         }]
     },
-    {
-        name:'SchMgT',
-        description: ` A School Management Solution 
-        for school to keep records of thier Datas `,
-        image: '',
-        links:[{
-            github:'www.github.com/yhoungdev/private-me-'
-        }]
-    },
-    {
-        name:'Galactic Ops',
-        description: ` A Simple NFT platform homepage  `,
-        image: '',
-        links:[{
-            github:'www.github.com/yhoungdev/private-me-'
-        }]
-    },
-    {
-        name:'Parrot',
-        description: ` A Projects to showcase web3 
-        projects and receive reviews from users  `,
-        image: '',
-        links:[{
-            github:'www.github.com/yhoungdev/private-me-'
-        }] 
-    },
+    // {
+    //     name:'SchMgT',
+    //     description: ` A School Management Solution 
+    //     for school to keep records of thier Datas `,
+    //     image: '',
+    //     links:[{
+    //         github:'www.github.com/yhoungdev/private-me-'
+    //     }]
+    // },
+
+    // {
+    //     name:'Galactic Ops',
+    //     description: ` A Simple NFT platform homepage  `,
+    //     image: '',
+    //     links:[{
+    //         github:'www.github.com/yhoungdev/private-me-'
+    //     }]
+    // },
+    // {
+    //     name:'Parrot',
+    //     description: ` A Projects to showcase web3 
+    //     projects and receive reviews from users  `,
+    //     image: '',
+    //     links:[{
+    //         github:'www.github.com/yhoungdev/private-me-'
+    //     }] 
+    // },
     // {
     //     name:'Freexit',
     //     description: ' A Logistic platform for easy shipments ',

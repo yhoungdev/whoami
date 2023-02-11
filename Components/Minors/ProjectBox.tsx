@@ -25,9 +25,9 @@ const ProjectBox =({name , image , description , github}: ItemModels )=> {
 
                     <Box bg={'var(--flats)'}
                        right={0} left={0} bottom={0} py={'2em'} px={'1em'}>
-                        <Text fontWeight={'bold'} fontSize={'1.5em'}>{name}</Text>
+                        <Text my={'0.5em'} fontWeight={'bold'} fontSize={'1.5em'}>{name}</Text>
 
-                        <Text> {description} </Text>
+                        <Text > {description} </Text>
 
                         <Box my={'1em'} display={'flex'} gap={'1em'}>
 
