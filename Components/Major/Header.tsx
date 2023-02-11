@@ -62,7 +62,8 @@ const Header = () => {
                         {pubKey}
                      </Text>
 
-                     <Button bg={'var(--glass)'}>  Copy PubKey </Button>
+                     <Button bg={'var(--glass)'}
+                      _hover={{'bg':'black'}}>  Copy PubKey </Button>
 
                 </Box>
             </ModalLayout>
