@@ -9,30 +9,31 @@ const Projects =()=> {
     const projects = [
 
         {
+            name:'Freexit',
+            description: 'A logistic platforms, for sending percels easily anywhere',
+            image: '',
+           link: ' '
+        },
+
+        {
             name:'Private Me',
             description: 'An Open Source community for Anonymity and whistle blowers',
-            image: '',
-            links:[{
-                github:'www.github.com/yhoungdev/private-me-'
-            }]
+            image: 'https://res.cloudinary.com/dhkccnvyn/image/upload/v1677950350/metaOps/Frame_1_2_p2jqnu.svg',
+           link: ' https://private-mee.netlify.app/https://private-mee.netlify.app/ '
         },
 
         {
             name:'Git Secure',
             description: 'A Sectret Ops platform, which scan leaked credentials in your codebase',
             image: '',
-            links:[{
-                github:'www.github.com/yhoungdev/private-me-'
-            }]
+            link: ' '
         },
 
         {
             name:'MetaOps Gaming Site ',
-            description: 'A web site for Gamers',
-            image: '',
-            links:[{
-                github:'www.github.com/yhoungdev/private-me-'
-            }]
+            description: 'Join the competitive gamoing of MetaOps and put your gaming skill to test',
+            image: 'https://res.cloudinary.com/dhkccnvyn/image/upload/v1677728773/metaOps/Frame_42310_pgs5ga.png',
+           link: 'https://metaopsgaming.com/https://metaopsgaming.com/ '
         },
         
         
@@ -40,27 +41,25 @@ const Projects =()=> {
         name:'Quickk',
         description: 'A Platform to make you create blog in 2 mins, and earn donations in crypto',
         image: 'https://res.cloudinary.com/dhkccnvyn/image/upload/v1662747247/QUICKK10_1_arplnz.svg',
-        links:[{
-            github:'www.github.com/yhoungdev/private-me-'
-        }]
+        link:'https://quickk.blog/'
     },
-    {
-        name:'SecuWallet',
-        description: ` The key component that provides secure, diversied
-         and user-friendly non-custodial wallet solution for everyone. `,
-        image: 'https://res.cloudinary.com/dhkccnvyn/image/upload/v1656241542/secuWallet/SecuWallet_Horizontal_Logo_-_White_jfkykd.png',
-        links:[{
-            github:'www.github.com/yhoungdev/private-me-'
-        }]
-    },
-    {
-        name:'Utifi',
-        description: `Making Digital Service Better for Everyone, pay bills with ease`,
-        image: '',
-        links:[{
-            github:'www.github.com/yhoungdev/private-me-'
-        }]
-    },
+    // {
+    //     name:'SecuWallet',
+    //     description: ` The key component that provides secure, diversied
+    //      and user-friendly non-custodial wallet solution for everyone. `,
+    //     image: 'https://res.cloudinary.com/dhkccnvyn/image/upload/v1656241542/secuWallet/SecuWallet_Horizontal_Logo_-_White_jfkykd.png',
+    //     links:[{
+    //         github:'www.github.com/yhoungdev/private-me-'
+    //     }]
+    // },
+    // {
+    //     name:'Utifi',
+    //     description: `Making Digital Service Better for Everyone, pay bills with ease`,
+    //     image: '',
+    //     links:[{
+    //         github:'www.github.com/yhoungdev/private-me-'
+    //     }]
+    // },
     // {
     //     name:'SchMgT',
     //     description: ` A School Management Solution 
@@ -70,24 +69,7 @@ const Projects =()=> {
     //         github:'www.github.com/yhoungdev/private-me-'
     //     }]
     // },
-
-    // {
-    //     name:'Galactic Ops',
-    //     description: ` A Simple NFT platform homepage  `,
-    //     image: '',
-    //     links:[{
-    //         github:'www.github.com/yhoungdev/private-me-'
-    //     }]
-    // },
-    // {
-    //     name:'Parrot',
-    //     description: ` A Projects to showcase web3 
-    //     projects and receive reviews from users  `,
-    //     image: '',
-    //     links:[{
-    //         github:'www.github.com/yhoungdev/private-me-'
-    //     }] 
-    // },
+   
     // {
     //     name:'Freexit',
     //     description: ' A Logistic platform for easy shipments ',
@@ -139,7 +121,7 @@ const Projects =()=> {
                                      description={items.description}
                                      image={items?.image}
                                       //@ts-ignore
-                                     github={items.links[0]}/>
+                                     link={items.link}/>
                                 
                             </>
                         )

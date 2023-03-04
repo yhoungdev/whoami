@@ -10,7 +10,7 @@ const Sidebar =({width}) => {
 
     },{
         name: 'Projects',
-        route: '/projects'
+        route: '/Projects'
     },
     {
         name: 'Blogs',

@@ -1,21 +1,22 @@
 import { Box , Text , Center , Image  } from "@chakra-ui/react";
 import { FaGithub } from "react-icons/fa";
 import {HiExternalLink } from 'react-icons/hi';
-import {BsInfoCircle} from 'react-icons/bs';
-import Link from "next/link";
+
 interface ItemModels {
     name ?: string ,
     image ?: string, 
     github ?: string, 
-    description ?: string
+    description ?: string,
+    link ?: string 
+    display ?: boolean
 }
 
-const ProjectBox =({name , image , description , github}: ItemModels )=> {
+const ProjectBox =({name , image , description, link , display,  github}: ItemModels )=> {
     return (
         <>
 
 
-            <Box w={['100%','30%']} maxH={'60vh'}  bg={'var(--glass)'} position={'relative'}>
+            <Box w={['100%','30%']}  bg={'var(--glass)'} position={'relative'}>
 
                     <Box py={'3em'} px={'1em'}>
                         <Box bgImage={image}
@@ -31,7 +32,7 @@ const ProjectBox =({name , image , description , github}: ItemModels )=> {
                              <Image src={image} w={'30%'} alt={'logo for project'}/>
                         </Center> */}
 
-                    <Box bg={'var(--flats)'}
+                    <Box bg={'var(--flats)'} position={'relative'}
                        right={0} left={0} bottom={0} py={'2em'} px={'1em'}>
                         <Text my={'0.5em'} fontWeight={'bold'} fontSize={'1.5em'}>{name}</Text>
 
@@ -46,15 +47,22 @@ const ProjectBox =({name , image , description , github}: ItemModels )=> {
 
                                 
 
-                            <Box display={'flex'} bg={'blackAlpha.200'} 
+                            {/* <Box display={display ? 'none' : 'block'}>
+                            <Box display={'flex'}
+                                 bg={'blackAlpha.200'} 
                                 cursor={'pointer'} gap={'0.5em'}>
-                                   <BsInfoCircle fontSize={'1.3em'}/> Info
+                                   <FaGithub fontSize={'1.3em'}/> Code
                             </Box>
+                            </Box> */}
 
-                            <Box display={'flex'} bg={'blackAlpha.200'} 
+                            <a href={link}>
+                            <Box display={'flex'} 
+                                borderRadius={'8px'}
+                                p={'0.7em 1em'} bg={'var(--glass)'} 
                                 cursor={'pointer'}>
                                 <HiExternalLink fontSize={'1.4em'}/> Live Preview
                             </Box>
+                            </a>
 
 
                             

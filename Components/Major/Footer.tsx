@@ -30,9 +30,21 @@ export const Footer =()=> {
                     </Box>
 
                     <Box display={'inline-flex'} gap={'2em'}>
-                        <FaGithub/>
-                        <FaLinkedin/>
-                        <FaTwitter/>
+                        <a href="https://github.com/yhoungdev" 
+                          target='_blank' rel="noreferrer" >
+                         <FaGithub/>
+                        </a>
+                        <a href='https://www.linkedin.com/in/obiabo-emmanuel-5a66371aa/'
+                            target='_blank' rel="noreferrer">
+                         <FaLinkedin/>
+                        </a>
+
+
+                        <a href={'https://twitter.com/obiabo_immanuel'}
+                        rel="noreferrer" target='_blank' >
+                            <FaTwitter/>
+                        </a>
+                        
 
                     </Box>
                 </Box>
