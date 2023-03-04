@@ -67,7 +67,7 @@ const Work =()=> {
 
 
                 <Center>
-                    <Text my={'2em'} fontWeight={'bold'} fontSize={'1.8em'}>Things i have worked on </Text>
+                    <Text my={'2em'} fontWeight={'bold'} fontSize={'1.8em'}>Some items i have worked on</Text>
                 </Center>
 
                 <Flex gap={'2em'} flexDir={['column','row']} flexWrap={'wrap'}>
