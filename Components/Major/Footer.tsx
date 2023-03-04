@@ -1,5 +1,6 @@
 import { Box, ListItem, UnorderedList } from "@chakra-ui/react"
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa"
+import Link from 'next/link'
 
 export const Footer =()=> {
     return (
@@ -18,7 +19,10 @@ export const Footer =()=> {
                     <UnorderedList mx={0} listStyleType={'none'}>
                         
                         <ListItem>/Blogs</ListItem>
-                        <ListItem>/works</ListItem>
+                        
+                        <Link href={'/Projects'}>
+                         <ListItem>/Works </ListItem>
+                        </Link>
                         
                     </UnorderedList>
 
@@ -26,7 +30,7 @@ export const Footer =()=> {
 
                 <Box my={'3em'} display={'flex'} justifyContent={['space-between']} >
                     <Box>
-                        sudo whoami 2022
+                        sudo whoami 2023
                     </Box>
 
                     <Box display={'inline-flex'} gap={'2em'}>

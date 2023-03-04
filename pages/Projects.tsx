@@ -11,7 +11,7 @@ const Projects =()=> {
         {
             name:'Freexit',
             description: 'A logistic platforms, for sending percels easily anywhere',
-            image: '',
+            image: 'https://res.cloudinary.com/dhkccnvyn/image/upload/v1677952850/metaOps/1642418779504_xfme0l.jpg',
            link: ' '
         },
 
@@ -25,7 +25,7 @@ const Projects =()=> {
         {
             name:'Git Secure',
             description: 'A Sectret Ops platform, which scan leaked credentials in your codebase',
-            image: '',
+            image: 'https://res.cloudinary.com/dhkccnvyn/image/upload/v1677952740/metaOps/Group_237749_evqbkp.svg',
             link: ' '
         },
 
@@ -88,9 +88,7 @@ const Projects =()=> {
         description: `A simple and small chrome extension
             that blocks and redirects erotic words `,
         image: '',
-        links:[{
-            github:'www.github.com/yhoungdev/private-me-'
-        }]
+        link: 'https://github.com/yhoungdev/anti-porno'
     }]
 
     return (
