@@ -1,4 +1,4 @@
-import { Box, Flex, Text } from "@chakra-ui/react";
+import { Box, Flex, Text, Center  } from "@chakra-ui/react";
 import Buttons from "../Components/Minors/Buttons";
 import DefaultText from "../Components/Minors/DefaultText";
 import { useState } from "react";
@@ -25,12 +25,17 @@ const LoaderScreen = () => {
                 <Flex justifyContent={'center'}  h={'100vh'} textAlign={'center'} alignItems={'center'}>
                     <Box>
                         <Text fontSize={'4em'} className={'move'}>&#128039;</Text>
-                        <Text fontWeight={'bold'}>sudo whoami</Text>
+                        <Text fontWeight={'bold'}>$/home/whomai/ sudo whoami</Text>
                        
-                        <Text>{'> '}Root</Text>
+                        <Text>{''}Root</Text>
+                          <small>Click the button to continue</small>
+                          <Center>👇🏾</Center>
                             <Box onClick={handleMod}>
                                 <Buttons
-                                bg={'var(--default-text)'} 
+                                    //@ts-ignore
+                                    py={'1.5em'}
+                                    bg={'var(--default-text)'}
+                                   
                                 color={'#000'}>ssh obiabo@127.0.0.1</Buttons>
                             </Box>
                     </Box>

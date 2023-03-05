@@ -9,12 +9,12 @@ interface ButtonModel {
     handler ?: any, 
     border ?: any 
 }
-const Buttons =({color,bg,children, _hover ,border , handler}:ButtonModel) => {
+const Buttons =({color,bg,children, _hover ,border , handler, ...props}:ButtonModel) => {
     return (
         <>  
 
             <Button  my={'1em'} px={'2em'}  onClick={handler}
-                py={'1.3em'} bg={bg} color={color} border={border} >
+                py={'1.3em'} bg={bg} color={color} border={border} {...props} >
                 {children}
             </Button>
         
