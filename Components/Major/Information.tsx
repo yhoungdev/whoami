@@ -75,7 +75,12 @@ const Information =()=> {
                 </Flex>
                 
                 <Center>
-                    <Buttons color="black" bg="green.300">View Resume</Buttons>
+                <a
+                     target='_blank' 
+                     rel='noreferrer'
+                     href="https://drive.google.com/file/d/1jenKDjnTK6By8cbsiocCoMnnRFdjTbUw/view?usp=share_link">
+                     <Buttons color="black" bg="green.300">View Resume</Buttons>
+                   </a>
                 </Center>
 
             </Box>

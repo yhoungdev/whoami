@@ -19,7 +19,7 @@ const Projects =()=> {
             name:'Private Me',
             description: 'An Open Source community for Anonymity and whistle blowers',
             image: 'https://res.cloudinary.com/dhkccnvyn/image/upload/v1677950350/metaOps/Frame_1_2_p2jqnu.svg',
-           link: ' https://private-mee.netlify.app/https://private-mee.netlify.app/ '
+           link: 'https://private-mee.netlify.app/ '
         },
 
         {
