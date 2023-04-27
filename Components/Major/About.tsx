@@ -6,6 +6,7 @@ const About = () => {
   return (
     <>
       <Box bg={'var(--flats)'} p={'2em'}>
+        {/* @ts-ignore */}
         <DefaultText
           fontSize='1.1em'
           fontWeight='bold'
