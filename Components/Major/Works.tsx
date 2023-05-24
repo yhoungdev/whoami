@@ -6,11 +6,11 @@ import ProjectBox from '../Minors/ProjectBox';
 const Work = () => {
   const projects = [
     {
-      name: 'Go-Geeper',
-      description: 'Welcome to the future of Agriculture',
+      name: 'Book Hive',
+      description: 'An operating system for Bibliophiles',
       image:
-        'https://res.cloudinary.com/dhkccnvyn/image/upload/v1667532944/logo_eapsno.svg',
-      link: 'https://indexpage.gogeeper.com/',
+        'https://res.cloudinary.com/dhdqt4xwu/image/upload/v1684939754/bookhive/logo_xiwu2l.svg',
+      link: 'https://www.bookhive.club/',
     },
 
     {
@@ -22,12 +22,11 @@ const Work = () => {
     },
 
     {
-      name: 'Foodbank',
-      description:
-        'Supporting local communities by donating produce and surplus food.',
+      name: 'Go-Geeper',
+      description: 'Welcome to the future of Agriculture',
       image:
         'https://res.cloudinary.com/dhkccnvyn/image/upload/v1667532944/logo_eapsno.svg',
-      link: 'https://foodbank.gogeeper.com/',
+      link: 'https://indexpage.gogeeper.com/',
     },
 
     {
