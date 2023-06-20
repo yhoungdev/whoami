@@ -7,13 +7,14 @@ import { FaGithub } from 'react-icons/fa';
 
 const Projects = () => {
   const projects = [
-    // {
-    //   name: 'Freexit',
-    //   description: 'A logistic platforms, for sending percels easily anywhere',
-    //   image:
-    //     'https://res.cloudinary.com/dhkccnvyn/image/upload/v1677952850/metaOps/1642418779504_xfme0l.jpg',
-    //   link: ' ',
-    // },
+    {
+      name: 'LinkBolt',
+      description:
+        'Seamless Link Sharing Connecting Devices. Unify Your Links, Everywhere',
+      image:
+        'https://res.cloudinary.com/dhdqt4xwu/image/upload/v1687289099/whoami/Screenshot_from_2023-06-20_20-17-24_hk9qb0.png',
+      link: 'https://www.linkbolt.click/ ',
+    },
     {
       name: 'Book Hive',
       description:
@@ -29,6 +30,15 @@ const Projects = () => {
       image:
         'https://res.cloudinary.com/dhkccnvyn/image/upload/v1667532944/logo_eapsno.svg',
       link: 'https://indexpage.gogeeper.com/',
+    },
+
+    {
+      name: 'Horsemen NFT',
+      description:
+        'Horsemen Society is a community-focused project made up of 7000 unique digital items on the Ethereum blockchain.',
+      image:
+        'https://res.cloudinary.com/dhdqt4xwu/image/upload/v1687289895/whoami/Screenshot_from_2023-06-20_20-37-51_bcjyo3.png',
+      link: 'https://horsemen-nft.vercel.app/',
     },
 
     {

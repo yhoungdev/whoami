@@ -14,11 +14,12 @@ const Work = () => {
     },
 
     {
-      name: 'Private Me',
-      description: 'An Open Source community for Anonymity and whistle blowers',
+      name: 'LinkBolt',
+      description:
+        'Seamless Link Sharing Connecting Devices. Unify Your Links, Everywhere',
       image:
-        'https://res.cloudinary.com/dhkccnvyn/image/upload/v1677950350/metaOps/Frame_1_2_p2jqnu.svg',
-      link: 'https://private-mee.netlify.app/ ',
+        'https://res.cloudinary.com/dhdqt4xwu/image/upload/v1687289099/whoami/Screenshot_from_2023-06-20_20-17-24_hk9qb0.png',
+      link: 'https://www.linkbolt.click/ ',
     },
 
     {
