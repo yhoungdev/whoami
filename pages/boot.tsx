@@ -13,7 +13,7 @@ const LoaderScreen = () => {
 
   return (
     <>
-      <Box
+      {/* <Box
         bg={'black'}
         position={'fixed'}
         bottom={0}
@@ -53,7 +53,7 @@ const LoaderScreen = () => {
             </Box>
           </Box>
         </Flex>
-      </Box>
+      </Box> */}
     </>
   );
 };

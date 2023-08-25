@@ -11,6 +11,11 @@
   src: url(../Components/Asstet/SF/SFUIText-Heavy.woff);
 }
 
+@font-face {
+  font-family: mono;
+  src: url('../assets/fonts/OverpassMono-Light.ttf');
+}
+
 :root {
   --default-text: #16a34a;
   --gray: #f8fafc;
@@ -31,7 +36,7 @@
 body {
   background-color: rgb(24, 24, 24) !important;
   color: var(--gray) !important;
-  font-family: var(--outfit) !important ;
+  font-family: var(--general) !important ;
   font-weight: 500 !important;
   line-height: 28px;
   

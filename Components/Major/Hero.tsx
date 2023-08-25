@@ -16,7 +16,8 @@ const Hero = () => {
             <Image
               borderRadius={'0.5em'}
               boxSize='200px'
-              src='https://res.cloudinary.com/dhdqt4xwu/image/upload/v1687289230/whoami/dp_bgdeuc.png'
+              // src='https://res.cloudinary.com/dhdqt4xwu/image/upload/v1687289230/whoami/dp_bgdeuc.png'
+              src={'https://avatars.githubusercontent.com/u/54102389?v=4'}
               alt='Obiabo Emmanuel'
             />
           </Box>
@@ -29,16 +30,16 @@ const Hero = () => {
               fontSize={['2em', '71.3152px']}
               fontFamily={'var(--general)'}
             >
-              Obiabo Immanuel
+              Emmanuel Obiabo
             </Text>
             {/* @ts-ignore */}
             <Text textAlign={['center', ' left ']}>Software Engineer </Text>
           </Box>
         </Flex>
 
-        <Box position={'absolute'} bottom={0} left={0}>
+        {/* <Box position={'absolute'} bottom={0} left={0}>
           <Image src='https://res.cloudinary.com/dhkccnvyn/image/upload/v1659283237/quick/Group_44_gor4ho.svg' />
-        </Box>
+        </Box> */}
       </Box>
     </>
   );

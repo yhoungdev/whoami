@@ -3,6 +3,20 @@ import Buttons from '../Minors/Buttons';
 import DefaultText from '../Minors/DefaultText';
 
 const About = () => {
+  const data = [
+    {
+      content: `🚀 Problem-solving enthusiast and software engineer with a twist – I turn challenges into style statements. From elegant solutions in code to coaxing Raspberry Pi wonders, I'm your go-to person.`,
+    },
+    {
+      content: `🛹 Skateboarding, gym vibes, and AI experimentation (Langchain, Gorilla, Huggy Face - you name it!) keep life exciting.`,
+    },
+    {
+      content: `📚 When I'm not crafting code, I'm indulging my inner physicist, diving into books and cosmic mysteries.`,
+    },
+    {
+      content: `🏝️ Daydreaming of retiring at 45 to Breezefall Island in the Pacific – a cozy beach house surrounded by nature's finest.`,
+    },
+  ];
   return (
     <>
       <Box bg={'var(--flats)'} p={'2em'}>
@@ -29,20 +43,15 @@ const About = () => {
                 alt='Dan Abramov'
               />
 
-              <Box>
+              <Box w={['100%', '100%', '80%']}>
                 <Text my={'1em'}>{'> '} sudo whoami</Text>
-                <Text lineHeight={'1.7em'}>
-                  As a software engineer and researcher, I am driven by the
-                  desire to make a positive impact on the world through
-                  technology. With extensive experience in the fields of
-                  Fintech, Agro Tech, and Web3, I bring innovative ideas to life
-                  by crafting user-friendly and scalable applications. I am
-                  constantly pushing the boundaries of what is possible, and I
-                  am committed to delivering solutions that have a meaningful
-                  impact on the people and communities they serve. From my
-                  workspace, I am dedicated to changing the world, one line of
-                  code at a time
-                </Text>
+                <Flex flexDir={'column'} gap={'2em'}>
+                  {data.map((item, index) => (
+                    <Text lineHeight={'1.7em'} key={index}>
+                      {item.content}
+                    </Text>
+                  ))}
+                </Flex>
               </Box>
             </Flex>
           </Box>
@@ -69,11 +78,10 @@ const About = () => {
                 Open Source{' '}
               </Text>
               <Text my={'1em'}>
-                As an active member of the Github maintainers community, I
-                contribute and source Open Source projects. I have contributed
-                to repositories such as Open Sauce and Astro.build, among
-                others. Through my dedication and expertise, I aim to give back
-                to the tech ecosystem.
+                As an active contributor to the GitHub maintainers community, I
+                contribute to impactful Open Source projects. Notable
+                engagements include Open Sauce and Astro.build, reflecting
+                dedication to enhancing the tech landscape.
               </Text>
             </Box>
 
@@ -96,10 +104,9 @@ const About = () => {
               </Text>
 
               <Text my={'1em'}>
-                As a frontend developer, I have a good sense of UI/UX design I
-                design awesome Interfaces, low and high-fidelity mockups, and
-                over the past years, I have used tools such as Figma, Whimsical,
-                and Mockup Plus.
+                With a strong adherence to best practices, I seamlessly merge
+                functionality with a keen sense of UI/UX design. Additionally, I
+                excel in creating fast APIs that optimize user experiences.
               </Text>
             </Box>
           </Flex>
