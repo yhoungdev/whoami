@@ -2,6 +2,12 @@ import { Box, Center, Text, Image, Flex } from '@chakra-ui/react';
 import Link from 'next/link';
 import Buttons from '../Minors/Buttons';
 import ProjectBox from '../Minors/ProjectBox';
+import { FaReact, FaRust, FaNode, FaGit } from 'react-icons/fa';
+import { SiTypescript } from 'react-icons/si';
+import { TbBrandNextjs } from 'react-icons/tb';
+import { SiExpress, SiPrisma, SiGnubash } from 'react-icons/si';
+import { FcLinux } from 'react-icons/fc';
+import { DiMongodb } from 'react-icons/di';
 
 const Work = () => {
   const projects = [
@@ -62,6 +68,35 @@ const Work = () => {
   return (
     <>
       <Box my={'2em'}>
+        <Text
+          my={'2em'}
+          textAlign={'center'}
+          fontWeight={'bold'}
+          fontSize={'1.8em'}
+        >
+          Technologies i work with
+        </Text>
+
+        <Box
+          display={'flex'}
+          gap={'2em'}
+          alignItems={'center'}
+          justifyContent={'center'}
+          flexWrap={'wrap'}
+        >
+          <FaReact size={'3em'} color={'#3089ff'} />
+          <FaRust size={'3em'} color='#ec4919' />
+          <FaNode size={'3em'} color='#01d11b' />
+          <SiTypescript size={'3em'} color={'#3089ff'} />
+          <TbBrandNextjs size={'3em'} />
+          <SiExpress size={'3em'} />
+          <SiPrisma size={'3em'} />
+          <FcLinux size={'3em'} />
+          <FaGit size={'3em'} color='#ec4919' />
+          <DiMongodb size={'3em'} color='#01d11b' />
+          <SiGnubash size={'3em'} />
+        </Box>
+
         <Center>
           <Text my={'2em'} fontWeight={'bold'} fontSize={'1.8em'}>
             Some items i have worked on
