@@ -115,7 +115,7 @@ const About = () => {
             <a
               target='_blank'
               rel='noreferrer'
-              href='https://drive.google.com/file/d/1jenKDjnTK6By8cbsiocCoMnnRFdjTbUw/view?usp=share_link'
+              href='https://drive.google.com/file/d/1vcnbXRQIzjcm6fSXAgdU3db7rpiLt3S7/view?usp=sharing'
             >
               <Buttons color='black' bg='green.300'>
                 View Resume
