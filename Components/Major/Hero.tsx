@@ -33,7 +33,9 @@ const Hero = () => {
               Emmanuel Obiabo
             </Text>
             {/* @ts-ignore */}
-            <Text textAlign={['center', ' left ']}>Software Engineer </Text>
+            <Text textAlign={['center', ' left ']}>
+              I am a Software Engineer{' '}
+            </Text>
           </Box>
         </Flex>
 
