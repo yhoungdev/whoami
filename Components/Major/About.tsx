@@ -40,7 +40,7 @@ const About = () => {
                 display={'none'}
                 boxSize='200px'
                 src='https://res.cloudinary.com/dhkccnvyn/image/upload/v1662745429/1662421356129_cdkaxo.webp'
-                alt='Dan Abramov'
+                alt='Obiabo Emmanuel'
               />
 
               <Box w={['100%', '100%', '80%']}>

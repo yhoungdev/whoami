@@ -14,8 +14,9 @@ const Work = () => {
     {
       name: 'Book Hive',
       description: 'An operating system for Bibliophiles',
+      contributor: false,
       image:
-        'https://res.cloudinary.com/dhdqt4xwu/image/upload/v1684939754/bookhive/logo_xiwu2l.svg',
+        'https://res.cloudinary.com/dhdqt4xwu/image/upload/v1694504562/whoami/bookhiveclient_m8ubxo.png',
       link: 'https://www.bookhive.club/',
     },
 
@@ -23,45 +24,62 @@ const Work = () => {
       name: 'LinkBolt',
       description:
         'Seamless Link Sharing Connecting Devices. Unify Your Links, Everywhere',
+      contributor: false,
       image:
-        'https://res.cloudinary.com/dhdqt4xwu/image/upload/v1687289099/whoami/Screenshot_from_2023-06-20_20-17-24_hk9qb0.png',
+        'https://res.cloudinary.com/dhdqt4xwu/image/upload/v1694508102/whoami/854shots_so_bzt6ky.png',
       link: 'https://www.linkbolt.click/ ',
     },
 
     {
-      name: 'Go-Geeper',
+      name: 'Quickpay NG',
       description: 'Welcome to the future of Agriculture',
+      contributor: false,
       image:
-        'https://res.cloudinary.com/dhkccnvyn/image/upload/v1667532944/logo_eapsno.svg',
-      link: 'https://indexpage.gogeeper.com/',
+        'https://res.cloudinary.com/dhdqt4xwu/image/upload/v1694508696/whoami/252shots_so_xso7jf.png',
+      link: 'https://quickpayng.com/',
     },
 
     {
-      name: 'Quickk',
+      name: 'Gitsecure',
+      contributor: false,
       description:
-        'A Platform to make you create blog in 2 mins, and earn donations in crypto',
+        'Securely monitor and manage secrets with Gitsecure. Detect and manage leaked credentials in your codebase seamlessly.',
       image:
-        'https://res.cloudinary.com/dhkccnvyn/image/upload/v1662747247/QUICKK10_1_arplnz.svg',
-      link: 'https://quickk.blog/',
-    },
-
-    {
-      name: 'Setroi',
-      description: `Appears In Newspapers And Position In Google, An Informative platform`,
-      image:
-        'https://res.cloudinary.com/dhkccnvyn/image/upload/v1676146181/Portfolio/footer_svg.c02dfa2814883b11d4fb18de8f471247_jcbh6s.svg',
-      links: [
-        {
-          github: 'www.github.com/yhoungdev/private-me-',
-        },
-      ],
+        'https://res.cloudinary.com/dhdqt4xwu/image/upload/v1694509270/whoami/317shots_so_mu7jzw.png',
+      link: '',
     },
     {
-      name: 'Anti Porno',
-      description: `A simple and small chrome extension
-            that blocks and redirects erotic words `,
-      image: '',
-      link: 'https://github.com/yhoungdev/anti-porno',
+      name: 'Nostr View',
+      description: `The app store for applications built ontop the Nostr protocol`,
+      contributor: false,
+      image:
+        'https://res.cloudinary.com/dhdqt4xwu/image/upload/v1694511401/whoami/Screenshot_from_2023-09-12_10-36-26_ptfsvo.png',
+      links: 'https://github.com/yhoungdev/nostr-view',
+    },
+    {
+      name: 'Opensauced Hot',
+      description: `Find Open-Source Repositories
+      to contribute today `,
+      contributor: true,
+      image:
+        'https://res.cloudinary.com/dhdqt4xwu/image/upload/v1694511930/whoami/864shots_so_bxhn7p.png',
+      link: 'https://github.com/open-sauced/hot',
+    },
+    {
+      name: 'Astro Doc',
+      description: `Astro builds fast content sites, powerful web applications, dynamic server APIs, and everything in-between.`,
+      contributor: true,
+      image:
+        'https://res.cloudinary.com/dhdqt4xwu/image/upload/v1694512134/whoami/Screenshot_from_2023-09-12_10-48-25_nconf1.png',
+      link: 'https://github.com/withastro/docs',
+    },
+    {
+      name: 'UploadFly',
+      description: `React upload widget for Simple and open-source cloud infrastructure that makes it easy for developers to upload files.`,
+      contributor: true,
+      image:
+        'https://res.cloudinary.com/dhdqt4xwu/image/upload/v1694512718/whoami/Screenshot_from_2023-09-12_10-58-13_f6qluk.png',
+      link: 'https://github.com/uploadfly/react-widget',
     },
   ];
 
@@ -104,13 +122,14 @@ const Work = () => {
         </Center>
 
         <Flex gap={'2em'} flexDir={['column', 'row']} flexWrap={'wrap'}>
-          {projects.splice(0, 3).map((items) => {
+          {projects?.map((items) => {
             return (
               <>
                 <ProjectBox
                   name={items.name}
                   description={items.description}
                   image={items?.image}
+                  contributor={items?.contributor}
                   //@ts-ignore
                   link={items.link}
                 />
@@ -130,7 +149,7 @@ const Work = () => {
         </Box>
 
         <Center>
-          <Link href={'/Projects'}>
+          <Link href={'https://github.com/yhoungdev'}>
             <Text my={'3em'} cursor={'pointer'}>
               View More
             </Text>

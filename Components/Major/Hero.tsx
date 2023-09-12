@@ -34,14 +34,10 @@ const Hero = () => {
             </Text>
             {/* @ts-ignore */}
             <Text textAlign={['center', ' left ']}>
-              I am a Software Engineer{' '}
+              I am a Software Engineer
             </Text>
           </Box>
         </Flex>
-
-        {/* <Box position={'absolute'} bottom={0} left={0}>
-          <Image src='https://res.cloudinary.com/dhkccnvyn/image/upload/v1659283237/quick/Group_44_gor4ho.svg' />
-        </Box> */}
       </Box>
     </>
   );
