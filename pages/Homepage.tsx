@@ -5,26 +5,21 @@ import Header from '../Components/Major/Header';
 import Hero from '../Components/Major/Hero';
 import Information from '../Components/Major/Information';
 import Work from '../Components/Major/Works';
-
 import ContainerLayout from '../Themes/Layouts/ContainerLayout';
-import LoaderScreen from './boot';
-
+import { Analytics } from '@vercel/analytics/react';
 const Homepage = () => {
   return (
-    <>
-      <LoaderScreen />
-
-      <Box>
-        <ContainerLayout>
-          <Header />
-          <Hero />
-          <About />
-          <Work />
-          <Information />
-          <Footer />
-        </ContainerLayout>
-      </Box>
-    </>
+    <Box>
+      <Analytics />
+      <ContainerLayout>
+        <Header />
+        <Hero />
+        <About />
+        <Work />
+        <Information />
+        <Footer />
+      </ContainerLayout>
+    </Box>
   );
 };
 
