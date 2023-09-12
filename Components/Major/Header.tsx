@@ -38,7 +38,7 @@ const Header = () => {
     <>
       <Box
         display={'flex'}
-        py={'0.5em'}
+        py={'0.8em'}
         alignItems={'center'}
         justifyContent={'space-between'}
       >
@@ -57,9 +57,9 @@ const Header = () => {
             Nostr 🔑
           </Box>
 
-          <Box onClick={handleSidebar} transition={'1s ease-in-out'}>
+          {/* <Box onClick={handleSidebar} transition={'1s ease-in-out'}>
             {open === 0 ? <FaBars /> : <Text fontSize={'2em'}>&times;</Text>}
-          </Box>
+          </Box> */}
         </Box>
       </Box>
 
@@ -74,8 +74,7 @@ const Header = () => {
             _hover={{ bg: 'black' }}
             onClick={copyAddress}
           >
-            {' '}
-            Copy PubKey{' '}
+            Copy PubKey
           </Button>
         </Box>
       </ModalLayout>
