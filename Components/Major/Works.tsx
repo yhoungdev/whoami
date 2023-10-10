@@ -21,6 +21,16 @@ const Work = () => {
     },
 
     {
+      name: 'Gitsecure',
+      contributor: false,
+      description:
+        'Securely monitor and manage secrets with Gitsecure. Detect and manage leaked credentials in your codebase seamlessly.',
+      image:
+        'https://res.cloudinary.com/dhdqt4xwu/image/upload/v1694509270/whoami/317shots_so_mu7jzw.png',
+      link: 'https://gitsecure.dev/',
+    },
+
+    {
       name: 'LinkBolt',
       description:
         'Seamless Link Sharing Connecting Devices. Unify Your Links, Everywhere',
@@ -39,15 +49,6 @@ const Work = () => {
       link: 'https://quickpayng.com/',
     },
 
-    {
-      name: 'Gitsecure',
-      contributor: false,
-      description:
-        'Securely monitor and manage secrets with Gitsecure. Detect and manage leaked credentials in your codebase seamlessly.',
-      image:
-        'https://res.cloudinary.com/dhdqt4xwu/image/upload/v1694509270/whoami/317shots_so_mu7jzw.png',
-      link: '',
-    },
     {
       name: 'Nostr View',
       description: `The app store for applications built ontop the Nostr protocol`,
