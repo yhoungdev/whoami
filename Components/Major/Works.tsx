@@ -17,7 +17,7 @@ const Work = () => {
       contributor: false,
       image:
         'https://res.cloudinary.com/dhdqt4xwu/image/upload/v1694504562/whoami/bookhiveclient_m8ubxo.png',
-      link: 'https://www.bookhive.club/',
+      link: 'https://bookhive-client.vercel.app',
     },
 
     {

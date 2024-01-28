@@ -21,7 +21,7 @@ const Projects = () => {
         'Unleash your love for books on our open platform. Connect, explore, and engage with fellow book lovers. Join us today and be part of a vibrant literary community.',
       image:
         'https://res.cloudinary.com/dhdqt4xwu/image/upload/v1684939754/bookhive/logo_xiwu2l.svg',
-      link: 'https://www.bookhive.club/',
+      link: 'https://bookhive-client.vercel.app',
     },
 
     {
