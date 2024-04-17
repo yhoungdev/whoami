@@ -29,7 +29,14 @@ const Work = () => {
         'https://res.cloudinary.com/dhdqt4xwu/image/upload/v1694509270/whoami/317shots_so_mu7jzw.png',
       link: 'https://gitsecure.dev/',
     },
-
+    {
+      name: 'Nidful',
+      description: 'Nidful is a platform designed to facilitate vulnerability disclosure and bug bounty programs within the Nigerian and African market.',
+      contributor: false,
+      image:
+        '/assets/images/nidfulImage.png',
+      link: 'https://www.nidful.com/',
+    },
     {
       name: 'LinkBolt',
       description:
