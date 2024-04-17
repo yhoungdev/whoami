@@ -5,17 +5,23 @@ import DefaultText from '../Minors/DefaultText';
 const About = () => {
   const data = [
     {
-      content: `🚀 Problem-solving enthusiast and software engineer with a twist – I turn challenges into style statements. From elegant solutions in code to coaxing Raspberry Pi wonders, I'm your go-to person.`,
+      content: `🌱 I cherish the wonders of nature — from the serene beauty of plants and animals to the captivating vistas that unfold before me, each offering a precious gift that fills my heart with joy.`,
     },
     {
-      content: `🛹 Skateboarding, gym vibes, and AI experimentation (Langchain, Gorilla, Huggy Face - you name it!) keep life exciting.`,
+      content: `🛹 Skating, gym vibes`,
     },
     {
-      content: `📚 When I'm not crafting code, I'm indulging my inner physicist, diving into books and cosmic mysteries.`,
+      content: `🐱 When I'm not crafting code, I am sleeping or playing with my 2 beautiful white Cats. ( Luna and Luno )`,
     },
     {
-      content: `🏝️ Daydreaming of retiring at 45 to Breezefall Island in the Pacific – a cozy beach house surrounded by nature's finest.`,
+      content: `⚡ Fun fact: I savor the delights of Food 🍲🥘, relishing each flavorful bite, and find solace in the embrace of solitude.`,
     },
+    {
+      content: `🫣 We can talk about Linux , Open Source , Crypto and Cryptograhy.`,
+    },
+    {
+      content: `🖼️ if you have have Nice Cats 🐈, Dogs 🐶 and bunny 🐇 pictures, you can share with me`
+    }
   ];
   return (
     <>
@@ -43,7 +49,7 @@ const About = () => {
                 alt='Obiabo Emmanuel'
               />
 
-              <Box w={['100%', '100%', '80%']}>
+              <Box w={['100%', '100%', '60%']}>
                 <Text my={'1em'}>{'> '} sudo whoami</Text>
                 <Flex flexDir={'column'} gap={'2em'}>
                   {data.map((item, index) => (
@@ -115,7 +121,7 @@ const About = () => {
             <a
               target='_blank'
               rel='noreferrer'
-              href='https://drive.google.com/file/d/1vcnbXRQIzjcm6fSXAgdU3db7rpiLt3S7/view?usp=sharing'
+              href='https://drive.google.com/file/d/1D-Mom_0B8_Gms9s0vyE9Kx4oH1hLDtwr/view'
             >
               <Buttons color='black' bg='green.300'>
                 View Resume

@@ -64,7 +64,7 @@ const Information = () => {
               </Center>
 
               <Text my={'1em'}>
-                I am Obsessed with Linux Operating System, Am a big fan of the
+                I am Obsessed with Linux Operating System, I am  a big fan of the
                 Linux operating system over my years of experience in the Linux
                 Ecosystem I have tested many awesome Linux distros such as.
                 Ubuntu, Kali Linux, Parrot Security, Kubuntu, Tails, and even
@@ -90,7 +90,7 @@ const Information = () => {
                 If I am not facing my big inches monitor, I go skating in the
                 smooth feel of Nature, feeling the fresh air and nice
                 environment with my Head phone on and then listen to cool music.
-                If I am not skaiting i go for tours with my phone and taking
+                If I am not skating i go for tours with my phone and taking
                 cool potrait 📸 of the beautiful world, God has wonderfully
                 made. 😊
               </Text>
@@ -101,7 +101,7 @@ const Information = () => {
             <a
               target='_blank'
               rel='noreferrer'
-              href='https://drive.google.com/file/d/1vcnbXRQIzjcm6fSXAgdU3db7rpiLt3S7/view?usp=sharing'
+              href='https://drive.google.com/file/d/1D-Mom_0B8_Gms9s0vyE9Kx4oH1hLDtwr/view'
             >
               <Buttons color='black' bg='green.300'>
                 View Resume

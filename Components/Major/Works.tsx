@@ -34,7 +34,7 @@ const Work = () => {
       description: 'Nidful is a platform designed to facilitate vulnerability disclosure and bug bounty programs within the Nigerian and African market.',
       contributor: false,
       image:
-        '/assets/images/nidfulImage.png',
+        'https://res.cloudinary.com/dlqnvnxth/image/upload/v1713354170/personal/iozgy2gf5zawhooxrxko.png',
       link: 'https://www.nidful.com/',
     },
     {
